@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Love</title>
+    <style>
+        body {
+            background-color: #ff9a9e;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .boxes {
+            border: 2px solid white;
+            border-radius: 15px;
+            width: 25vw;
+            padding: 20px;
+            margin: 15px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 15px rgb(53, 51, 51);
+        }
+
+        /* Header animation */
+        header {
+            animation: fadeDown 1.5s ease;
+        }
+
+        /* Card animation */
+        .boxes {
+            animation: fadeUp 1.2s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover effect */
+        .boxes:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        }
+
+        /* Animations */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            color: rgb(25, 80, 129);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> I Am Sorry Love ❤️</h1>
+        <p>Please read these from my heart</p>
+    </header>
+    <section>
+        <div class="box">
+
+            <div class="boxes">
+                <h1>Sorry 😓</h1>
+                <p>I hurt you by asking for a break, and I am truly sorry for the pain I caused you.</p>
+            </div>
+            <div class="boxes">
+                <h1>Sorry 😔</h1>
+                <p>Every moment of distance made me realize how important you are to my heart, and I regret what I had
+                    say</p>
+            </div>
+            <div class="boxes">
+                <h1> Baby Soory</h1>
+                <p>I should have talked to you, held you closer, and not choosing space, and I regret that mistake with
+                    all my heart.</p>
+            </div>
+            <div class="boxes">
+                <h1> Baccha Sorry (●'◡'●)</h1>
+                <p>If love means admitting mistakes and asking for forgiveness, then this is me doing both—because I
+                    truly love you</p>
+            </div>
+            <div class="boxes">
+                <h1>Sorry 💔</h1>
+                <p>I understand now that my decision confused and hurt you. It was my fault, and I am sorry for not
+                    handling things the right way.</p>
+            </div>
+            <div class="boxes">
+                <h1>Always 🤍</h1>
+                <p>I do not want to force anything on you. I just want you to know that I am here whenever you feel
+                    ready to talk.</p>
+            </div>
+            <div class="boxes">
+                <h1> 2026 ✨</h1>
+                <p>As this year ends. I want to tell you thank you for made this year so special for me. i love this
+                    year . i enyoed ,i cried, i grown up because of you. you are always there when i need you .</p>
+            </div>
+            <div class="boxes">
+                <h1>Love 💞</h1>
+                <p> Baby , you know what you are the one who built my interest in coding,web dev,now ml . i made me
+                    yaar. i love you </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>I love you baby. Can we talk.</p>
+    </footer>
+</body>
+
+</html>
